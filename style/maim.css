@@ -14,7 +14,7 @@
 
 body {
     background: var(--preta);
-    font-family: "Times New Roman", Times, serif;
+    font-family: "Arial", Times, serif;
     color: white;
 }
 
@@ -29,7 +29,7 @@ header .container {
 }
 
 header .logo {
-    margin-left: 5px;
+    margin-left: 10px;
     color: var(--vermelho);
     /* font-family: "Arial Black", Times;*/
     font-family: "Trebuchet MS", Arial, sans-serif;
@@ -48,6 +48,10 @@ header nav a:hover {
 
 
 /*FILME PRINCIPAL*/
+
+.filme-principal .container {
+    width: 70%;
+}
 
 .filme-principal {
     font-size: 16px;
@@ -90,4 +94,78 @@ header nav a:hover {
 .botao i {
     margin-right: 5px;
     font-size: 20px;
+}
+
+.box-filmes {
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+
+.carrocel-filmes {
+    height: 50%;
+}
+
+
+/*footer*/
+
+footer .conteiner {
+    max-width: 75%;
+    margin: 10px auto;
+}
+
+footer .conteiner p {
+    margin-bottom: 20px;
+}
+
+footer .conteiner a {
+    text-decoration: none;
+    color: #AAA;
+}
+
+footer .conteiner a:hover {
+    color: #fff;
+}
+
+.conteiner,
+.footer-links a {
+    color: #AAA;
+    font-size: 15px;
+}
+
+.footer-links {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+}
+
+.footer-links li {
+    line-height: 20px;
+}
+
+footer ul a:hover {
+    color: #fff;
+}
+
+.pais select {
+    margin: 10px;
+}
+
+select:focus {
+    background: var(--preta);
+}
+
+select {
+    border-radius: 5px;
+    background: transparent;
+    font-size: 15px;
+    color: white;
+    padding: 15px;
+}
+
+
+/*conteiner*/
+
+.conteiner {
+    margin-left: 10px;
 }
